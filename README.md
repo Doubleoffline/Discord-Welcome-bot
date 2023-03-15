@@ -4,8 +4,11 @@ This code is a simple Discord bot written in Node.js that sends a welcome messag
 
 # Installation
 1. Clone the repository or download the code as a ZIP file
+
 2. Install the required dependencies by running `npm install`
+
 3.fill in the necessary information (bot token and channel ID) in the config.json file
+
 4.Run the bot by running node `index.js`
 
 # Usage
