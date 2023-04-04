@@ -1,5 +1,4 @@
 {
-    "token": "UR_BOT_TOKEN",
-    "channelId": "UR_WELCOME_CHANNEL_ID"
-  }
-  
+    "token": "bot token here",
+    "channelId": "channel id here"
+}
