@@ -37,9 +37,13 @@ client.on("guildMemberAdd", member => {
 
 
     // Create a new embed with the desired properties
-    const embed = new Discord.EmbedBuilder().setColor("#0099ff").setTitle("Welcome to the server!").setDescription(`Welcome, ${
-        member.user.username
-    }! We"re glad to have you on board!`).setThumbnail(member.user.displayAvatarURL())
+    const embed = new Discord.EmbedBuilder()
+        .setColor("#0099ff")
+        .setTitle("Welcome to the server!")
+        .setDescription(`Welcome, ${
+            member.user.username
+        }! We"re glad to have you on board!`)
+        .setThumbnail(member.user.displayAvatarURL())
 
     // Send the embed to the desired channel
     welcomeChannel.send({embeds: [embed]});
