@@ -2,8 +2,8 @@
 const Discord = require('discord.js');
 const config = require('./config.json');
 
-// Create a new instance of the Discord client
-const client = new Discord.Client();
+// Create a new instance of the Discord client with intents
+const client = new Discord.Client({ intents: [Discord.Intents.FLAGS.GUILDS, Discord.Intents.FLAGS.GUILD_MEMBERS] });
 
 // When the bot is ready, log a message to the console
 client.on('ready', () => {
